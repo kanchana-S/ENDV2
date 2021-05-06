@@ -26,5 +26,8 @@ Assignments related to the course ENDV2 will be saved here
 # What is the "chain rule" in gradient flow?
     Chain rule is the same rule used to find partial derivetives, just that it is applied to the 
     output nodes w.r.t. input node. 
-    This is needed to update weights in later iterations since we want the NN to learn and predict with less loss.
+    Since we do not know the rate of change w.r.t. the input node directly, we apply chain rule, 
+    and calculate intermediate rates of change and reach to the input node.
+    This is needed to update weights in later iterations since we want the NN to learn and 
+    predict with less loss.
     
